@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: azure;
+    text-align: center;
+   
+}
+
+.container{
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    border: 10px,solid,black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4vmin;
+    
+   
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: blueviolet;
+    border-radius: 5%;
+   
+    border: none;
+
+}
+
+#R {
+
+    background-color: rgb(122, 176, 176);
+    &-container {
+     width: 100%;
+     text-align: center;
+   }
+   &-text {
+     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+   font-size: 16px;
+   height: 60px;
+   width: 180px;
+   border-width: 1px;
+   border-radius: 8px;
+   &:active {
+     font-size: 28px;
+     text-transform: uppercase;
+     -webkit-transition: 0.1;
+     transition: 0.1s;
+     background: none;
+     
+   }
+   &:focus {
+     outline: 0;
+   }
+ }
+
+ #new {
+
+  background-color: rgb(134, 116, 146);
+  &-container {
+   width: 100%;
+   text-align: center;
+ }
+ &-text {
+   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ font-size: 16px;
+ height: 60px;
+ width: 180px;
+ border-width: 1px;
+ border-radius: 8px;
+ &:active {
+   font-size: 28px;
+   text-transform: uppercase;
+   -webkit-transition: 0.1;
+   transition: 0.1s;
+   background: red;
+   
+ }
+ &:focus {
+   outline: 0;
+ }
+}
