@@ -9,7 +9,7 @@ body{
    
 }
 
-.container{
+.container {
     height: 75vh;
     display: flex;
     flex-wrap: wrap;
@@ -33,14 +33,14 @@ body{
 .box{
     height: 18vmin;
     width: 18vmin;
-    background-color: blueviolet;
+    background-color: rgb(166, 127, 202);
     border-radius: 5%;
    
     border: none;
 
 }
 
-#R {
+#reset-btn {
 
     background-color: rgb(122, 176, 176);
     &-container {
@@ -68,7 +68,7 @@ body{
    }
  }
 
- #new {
+ #new-btn {
 
   background-color: rgb(134, 116, 146);
   &-container {
