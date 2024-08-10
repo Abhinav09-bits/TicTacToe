@@ -9,6 +9,8 @@ body{
    
 }
 
+
+
 .container {
     height: 75vh;
     display: flex;
@@ -37,7 +39,6 @@ body{
     border-radius: 5%;
    
     border: none;
-
 }
 
 #reset-btn {

@@ -30,17 +30,20 @@ boxes.forEach((box) => {
     if (turnO) {
       //playerO
       box.innerText = "O";
+      box.style.fontSize="75px";
+      box.style.color="rgb(158, 24, 127)"
       turnO = false;
     } else {
       //playerX
       box.innerText = "X";
+      box.style.fontSize="75px";
       turnO = true;
     }
     box.disabled = true;
     count++;
 
     let isWinner = checkWinner();
-
+ 
     if (count === 9 && !isWinner) {
       gameDraw();
     }
