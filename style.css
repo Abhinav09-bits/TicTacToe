@@ -9,7 +9,10 @@ body{
    
 }
 
+#msg{
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
+}
 
 .container {
     height: 75vh;

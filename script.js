@@ -22,6 +22,7 @@ const resetGame = () => {
   turnO = true;
   count = 0;
   enableBoxes();
+  msg.innerText() = `winner`;
   msgContainer.classList.add("hide");
 };
 
