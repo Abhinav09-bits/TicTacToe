@@ -19,7 +19,7 @@ const winPatterns = [
 ];
 
 const resetGame = () => {
-  turnO = true;
+  turnO = true; /*hiiii*/
   count = 0;
   enableBoxes();
   msg.innerText() = `winner`;
