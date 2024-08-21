@@ -6,8 +6,20 @@
 body{
     background-color: azure;
     text-align: center;
+    background-image: url(bgphoto.img.png);
+    background-size: contain ;
+    background-repeat: repeat-x;
+    background-repeat: center;
+    
    
 }
+
+h1{
+  text-shadow: 20px;
+  font-family: fantasy;
+
+}
+
 
 #msg{
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -40,7 +52,6 @@ body{
     width: 18vmin;
     background-color: rgb(166, 127, 202);
     border-radius: 5%;
-   
     border: none;
 }
 
@@ -50,6 +61,7 @@ body{
     &-container {
      width: 100%;
      text-align: center;
+     
    }
    &-text {
      font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
